@@ -1,0 +1,115 @@
+header{
+    /*background-image: url(images/central_park.jpg);
+    background-repeat: no-repeat;*/
+    background-image: url(images/central_park.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 1500px;
+    background-position: 0 -200px;
+    /*padding-top:100px;
+    padding-left: 100px;*/
+    padding:100px 0 0 100px;/* clockwise starting 12 noon*/
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+     }
+
+    li{
+        list-style-type: none;
+        display: inline;
+        padding: 0 20px;
+    
+    }
+    li a{
+        text-decoration: none;
+    }
+    li a:link{
+        color: #000;
+    }
+    li a:visited{
+        color: #818db3;
+    }
+    li a:hover{
+        color: #333;
+    }
+    li a:active{
+        color: #753a30;
+    }
+    nav{
+        background-color: rgb(255,245,238);
+        height: 50px;
+        text-align: center;
+        padding-top: 2px;
+    }
+    main{
+        margin:50 px;
+    }
+    
+    main h1{
+        color:rgb(129,141,179);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    footer{
+        height: 40px;
+        background-color: rgb(129,141,179);
+        text-align: center;
+        padding-top: 20px;
+        color:rgb(211, 218,240);
+        margin-top:50px;
+        
+    }
+
+    /* Page 2*/
+    table{
+        margin-top: 35px;
+    }
+    table,caption,th,td{
+        border: 1px solid #000;
+    }
+    th,td{
+        width:150px;
+        height:35px;
+        text-align: center;
+    }
+    caption{
+        text-transform: uppercase;
+        font-weight: 600;
+        height:40px;
+        padding-top: 15px;
+        color: #753a30;
+    }
+    /*Page 3*/
+    form{
+        margin-top: 35px;
+    }
+    label{
+        display: block;
+        margin:15px 0 0 0;
+    }
+    input,textarea{
+        width: 300px;
+    }
+    /*attribute selector*/
+    input[type="radio"]{
+        width: 25px;
+    }
+    input[type="submit"]{
+        display: block;
+        margin:20px 0 10px 0;
+        width:100px;
+        border:2px solid;
+        background-color:#9370c0;
+        border:none;
+        padding:7px;
+        color:#fff;
+        font-weight: bold;
+        border-radius: 5px;
+
+    }
+    fieldset{
+        border:2px solid #9370c0
+    }
+    legend{
+        font-size: large;
+        font-weight: bold;
+    }
+
