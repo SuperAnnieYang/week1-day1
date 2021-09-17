@@ -48,6 +48,9 @@ header{
         color:rgb(129,141,179);
         font-family:Arial, Helvetica, sans-serif;
     }
+    main #album #photo img{
+        width: 400px;
+    }
     footer{
         height: 40px;
         background-color: rgb(129,141,179);
@@ -112,6 +115,10 @@ header{
         font-size: large;
         font-weight: bold;
     }
+
+
+
+    
     
 
 
