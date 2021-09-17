@@ -35,12 +35,12 @@
     <p>My Fourth Paragraph</p>
 
         <ul id="album">
-            <ul id="photo"><img src="images/winterland1.jpg"></ul>
-            <ul id="photo"><img src="images/winterland2.jpg"></ul>
-            <ul id="photo"><img src="images/winterland3.jpg"></ul>
-            <ul id="photo"><img src="images/winterland4.jpg"></ul>
-            <ul id="photo"><img src="images/winterland5.jpg"></ul>
-            <ul id="photo"><img src="images/winterland6.jpg"></ul>
+            <!--<li id="photo"><img src="images/winterland1.jpg"></li>
+            <li id="photo"><img src="images/winterland2.jpg"></li>
+            <li id="photo"><img src="images/winterland3.jpg"></li>
+            <li id="photo"><img src="images/winterland4.jpg"></li>
+            <li id="photo"><img src="images/winterland5.jpg"></li>
+            <li id="photo"><img src="images/winterland6.jpg"></li>-->
         </ul>
 
     </main>
@@ -51,6 +51,24 @@
     </footer>
     </div>
     <!--End Container-->
+    <script>
+        var photos = []; //empty array to store image elemnt
+        var fileNames = []; //empty elemenmt to store image file names
+        var imageList = []; //empty array to store html 
+        var image; //empty variable to store the assembled image list codes
+        var openList = "<li id='photo'>";
+        var closeList = "</li>";
 
+        for (var i=0; i<6; i++) {
+            fileNames.push("winterland" + (i+1));
+            photos.push("<img src='images/" + fileNames[i]+".jpg'>");
+            image = openList + photos[i] + closeList;
+            imageList.push(image);
+        }
+        document.getElementById("album").innerHTML = imageList;
+
+
+
+    </script>
 </body>
 </html>

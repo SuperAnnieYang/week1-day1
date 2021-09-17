@@ -115,6 +115,9 @@ header{
         font-size: large;
         font-weight: bold;
     }
+    main #album #photo img{
+        width:400px;
+    }
 
 
 
